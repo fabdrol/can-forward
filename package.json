@@ -1,0 +1,22 @@
+{
+  "name": "can-forward",
+  "version": "1.0.1",
+  "description": "CAN forwarder with filtering",
+  "main": "index.js",
+  "scripts": {
+    "test": "DEBUG=can-forwar* node index.js"
+  },
+  "keywords": [
+    "can",
+    "canbus",
+    "forward",
+    "forwarder",
+    "filter"
+  ],
+  "author": "Fabian Tollenaar <fabian@decipher.industries>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "debug": "^3.1.0",
+    "socketcan": "^2.2.2"
+  }
+}
